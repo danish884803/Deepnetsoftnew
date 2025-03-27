@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/menu';
+const API_BASE_URL = 'https://samplebackend-0srv.onrender.com';
 
 export const getMenus = async () => {
   const response = await axios.get(`${API_BASE_URL}`);
